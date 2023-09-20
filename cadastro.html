@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form id="userForm">
+        <h1>Cadastro de Usuário</h1>
+        <label>Usuário:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label>Senha:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label>Confirme a Senha:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <br>
+        <label>Tipo de Usuário</label>
+        <br>
+        <select class="form-select" id="tipo" name="tipo" required>
+            <option selected disabled>Escolha uma opção</option>
+            <option value="administrador">Administrador</option>
+            <option value="medico">Médico</option>
+            <option value="paciente">Paciente</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <p id="message"></p>
+
+    <script src="js/script-cadastro.js"></script>
+</body>
+
+</html>

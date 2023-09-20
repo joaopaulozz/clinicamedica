@@ -1,0 +1,17 @@
+[
+  {
+    "username": "joaopaulo",
+    "password": "12345",
+    "tipo": "adm"
+  },
+  {
+    "username": "pedro",
+    "password": "1234",
+    "tipo": "administrador"
+  },
+  {
+    "username": "luciano.alvarazo",
+    "password": "12345",
+    "tipo": "administrador"
+  }
+]
